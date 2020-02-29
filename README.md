@@ -20,6 +20,6 @@ Template for final project of the course
   - Go to <b>Register.cs</b> and add new properties in <b>InputModel</b> similar to Email
   - In same file go to <b>OnPostAsync</b> and add the new fields to <b>ApplicationUser instance</b> (FirstName = Input.FirstName etc.)
   
-  To model database open <b>Package Manager Console</b> and write:
-    Add-Migration CreateCustomUser
-    Update-Database
+<b>After above points open <b>Package Manager Console</b> and write:</b>
+  - <b>Add-Migration CreateCustomUser</b>
+  - <b>Update-Database</b>
